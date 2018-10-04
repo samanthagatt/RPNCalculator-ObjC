@@ -15,6 +15,7 @@
 		22EA060B2166B0E600A61412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA060A2166B0E600A61412 /* main.m */; };
 		22EA06142166B41E00A61412 /* SAMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA06132166B41E00A61412 /* SAMStack.m */; };
 		22EA06172166B83100A61412 /* SAMCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA06162166B83100A61412 /* SAMCalculator.m */; };
+		22EA061A2166C5C500A61412 /* SAMDigitAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA06192166C5C500A61412 /* SAMDigitAccumulator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		22EA06132166B41E00A61412 /* SAMStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMStack.m; sourceTree = "<group>"; };
 		22EA06152166B83100A61412 /* SAMCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMCalculator.h; sourceTree = "<group>"; };
 		22EA06162166B83100A61412 /* SAMCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMCalculator.m; sourceTree = "<group>"; };
+		22EA06182166C5C500A61412 /* SAMDigitAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMDigitAccumulator.h; sourceTree = "<group>"; };
+		22EA06192166C5C500A61412 /* SAMDigitAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMDigitAccumulator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				22EA06132166B41E00A61412 /* SAMStack.m */,
 				22EA06152166B83100A61412 /* SAMCalculator.h */,
 				22EA06162166B83100A61412 /* SAMCalculator.m */,
+				22EA06182166C5C500A61412 /* SAMDigitAccumulator.h */,
+				22EA06192166C5C500A61412 /* SAMDigitAccumulator.m */,
 				22EA06112166B11A00A61412 /* View Controllers */,
 				22EA06012166B0DD00A61412 /* Main.storyboard */,
 				22EA06042166B0E600A61412 /* Assets.xcassets */,
@@ -160,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EA061A2166C5C500A61412 /* SAMDigitAccumulator.m in Sources */,
 				22EA06142166B41E00A61412 /* SAMStack.m in Sources */,
 				22EA06002166B0DD00A61412 /* SAMCalculatorViewController.m in Sources */,
 				22EA060B2166B0E600A61412 /* main.m in Sources */,
