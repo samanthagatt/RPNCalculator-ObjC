@@ -13,6 +13,8 @@
 		22EA06052166B0E600A61412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EA06042166B0E600A61412 /* Assets.xcassets */; };
 		22EA06082166B0E600A61412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EA06062166B0E600A61412 /* LaunchScreen.storyboard */; };
 		22EA060B2166B0E600A61412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA060A2166B0E600A61412 /* main.m */; };
+		22EA06142166B41E00A61412 /* SAMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA06132166B41E00A61412 /* SAMStack.m */; };
+		22EA06172166B83100A61412 /* SAMCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA06162166B83100A61412 /* SAMCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		22EA06072166B0E600A61412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22EA06092166B0E600A61412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22EA060A2166B0E600A61412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22EA06122166B41E00A61412 /* SAMStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMStack.h; sourceTree = "<group>"; };
+		22EA06132166B41E00A61412 /* SAMStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMStack.m; sourceTree = "<group>"; };
+		22EA06152166B83100A61412 /* SAMCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMCalculator.h; sourceTree = "<group>"; };
+		22EA06162166B83100A61412 /* SAMCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				22EA05FB2166B0DD00A61412 /* AppDelegate.h */,
 				22EA05FC2166B0DD00A61412 /* AppDelegate.m */,
+				22EA06122166B41E00A61412 /* SAMStack.h */,
+				22EA06132166B41E00A61412 /* SAMStack.m */,
+				22EA06152166B83100A61412 /* SAMCalculator.h */,
+				22EA06162166B83100A61412 /* SAMCalculator.m */,
 				22EA06112166B11A00A61412 /* View Controllers */,
 				22EA06012166B0DD00A61412 /* Main.storyboard */,
 				22EA06042166B0E600A61412 /* Assets.xcassets */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EA06142166B41E00A61412 /* SAMStack.m in Sources */,
 				22EA06002166B0DD00A61412 /* SAMCalculatorViewController.m in Sources */,
 				22EA060B2166B0E600A61412 /* main.m in Sources */,
+				22EA06172166B83100A61412 /* SAMCalculator.m in Sources */,
 				22EA05FD2166B0DD00A61412 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
